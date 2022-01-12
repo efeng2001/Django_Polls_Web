@@ -1,0 +1,17 @@
+body {
+    background: white url("images/background.png");
+}
+  
+ul {
+    margin-top: 50px;
+}
+
+li {list-style: none}
+
+li::before {content: "•"; color: red}
+
+li a {
+    color: orange;
+    font-weight: bold; 
+    width: 1em;
+}
